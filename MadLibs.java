@@ -72,40 +72,40 @@ public class MadLibs {
             
             char a = placeHolder.charAt(0);
             String vowel = String.valueOf(a);
-         switch (vowel) {
-                case "a":
-                  vowel = " an";
-                  break;
-                case "A":
-                  vowel = " an";
-                  break;
-                case "i":
-                  vowel = " an";
-                  break;
-                case "I":
-                  vowel = " an";
-                  break;
-                case "E":
-                  vowel = " an";
-                  break;
-                case "e":
-                  vowel = " an";
-                  break;
-                case "o":
-                  vowel = " an";
-                  break;
-                case "O":
-                  vowel = " an";
-                  break;
-                case "U":
-                  vowel = " an";
-                  break;
-                case "u":
-                    vowel = " an";
-                    break;
-                default:
-                    vowel = " a";
-                    break;
+                switch (vowel) {
+                        case "a":
+                          vowel = " an";
+                          break;
+                        case "A":
+                          vowel = " an";
+                          break;
+                        case "i":
+                          vowel = " an";
+                          break;
+                        case "I":
+                          vowel = " an";
+                          break;
+                        case "E":
+                          vowel = " an";
+                          break;
+                        case "e":
+                          vowel = " an";
+                          break;
+                        case "o":
+                          vowel = " an";
+                          break;
+                        case "O":
+                          vowel = " an";
+                          break;
+                        case "U":
+                          vowel = " an";
+                          break;
+                        case "u":
+                            vowel = " an";
+                            break;
+                        default:
+                            vowel = "";
+                            break;
             }
 
                 placeHolder = placeHolder.replace('<', ' ');
